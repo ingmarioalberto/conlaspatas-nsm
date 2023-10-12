@@ -3,15 +3,15 @@
 NSM, i don't even remember what the term NSM was meant, but it was something like "network map or something"
 Description: 
   A program to be able to view a map for incoming, outgoing and local connections to and from an specific server.
-What we have now:
+What we have now: 
   1. script to map the connections: currently via netstat command (maybe this is not the correct way, and we should modify to use pcap files or somenthing), it's basically a loop for the netstat commands and output information with certain soon to be documented format which contains: source,dest, protocol, source port, dest port, program/app, type of connection (incoming, outgoing, local), reference and stamp.
-  2. php script to receive the data and discard repeated infrmation and save to mysql database
+  2. php script to receive the data and discard repeated infrmation and save to mysql database, script to gather data, installation  and run: (boring...)
+     
+    https://youtu.be/wVD19tOETtM
   3. php webapp to show the map in the simplest form using the js library: 3d-force-graph which in turn uses three.js
-script to gather data, installation  and run: (boring...)
-  https://youtu.be/wVD19tOETtM
-webapp, with results:
-  https://youtu.be/de0-ABQLiik
 
+    https://youtu.be/de0-ABQLiik
+    
 Do you think is worth to be re made?
   
   
